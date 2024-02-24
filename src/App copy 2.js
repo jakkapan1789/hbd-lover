@@ -2,10 +2,12 @@ import "./App.css";
 import React from "react";
 
 const phrases = [
-  "Hello",
-  "Today is a special day for you. I wish you much happiness",
-  "Happy birthday to you :D",
-
+  "Today is a special day for you.",
+  "I have something to tell you.",
+  "I will love you forever unconditionally and will always be by your side.",
+  "Actually, I prepared something for you.",
+  "Hope you like it. I love you.",
+  "Happy birthday to my love.",
   "",
 ];
 
@@ -17,9 +19,13 @@ const contents = [
 ];
 
 const images = [
-  "https://media.tenor.com/9WgLODErtoIAAAAj/carrot-panda.gif",
-  "https://media.tenor.com/l2QU5JIn6q0AAAAj/happy-birthday.gif",
-  "https://media.tenor.com/S0JGPOR2G74AAAAj/tantan-lamronspace.gif",
+  "https://media.tenor.com/J6xumGwaxh8AAAAj/flowers-flower.gif",
+  "https://media.tenor.com/hMW3OOWCVQsAAAAj/peach-and-goma-head-massage.gif",
+  "https://media.tenor.com/gRHMuWwgl7AAAAAj/peach-goma-love.gif",
+  "https://media.tenor.com/_mdYvTBsU2sAAAAj/tkthao219-peach-goma.gif",
+  "https://media.tenor.com/ONx_IN1MwtEAAAAj/mochi.gif",
+  "https://media.tenor.com/3otRG1fx8j8AAAAj/tkthao219-peach.gif",
+  "https://media.tenor.com/ZT0808KDKS8AAAAi/mochi-mochi-peach-cat-cat.gif",
 ];
 
 function App() {
@@ -44,7 +50,7 @@ function App() {
           alt="reaction"
         />
         <div className="button-container">
-          {nextCount < 2 ? (
+          {nextCount < 6 ? (
             <button
               className="yes-button"
               style={{
