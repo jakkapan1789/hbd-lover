@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 
 const phrases = [
-  "Hello",
+  "Hello Carrot",
   "Today is a special day for you. I wish you much happiness",
   "Happy birthday to you :D",
 
